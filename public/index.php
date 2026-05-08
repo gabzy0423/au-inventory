@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Load environment variables
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
-$dotenv->load();
+$dotenv->safeLoad();
 
 // Instantiate the Router
 $router = new \App\Core\Router();
