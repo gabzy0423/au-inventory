@@ -557,7 +557,7 @@
                 </div>
             <?php endif; ?>
 
-            <form action="<?= $base_url ?>/login" method="POST" autocomplete="off">
+            <form action="/index.php?url=login" method="POST" autocomplete="off">
 
                 <!-- Email -->
                 <div class="form-group">
